@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>selo</title>
+      <title>PPDB SMK WEDI LUWE 1</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -20,7 +20,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="{{asset ('homepagetamplate/assets/css/responsive.css')}}">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="{{asset ('homepagetamplate/assets/images/fevicon.png')}}" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="{{asset ('homepagetamplate/assets/css/jquery.mCustomScrollbar.min.css')}}">
       <!-- Tweaks for older IEs-->
@@ -34,7 +34,7 @@
    <body class="main-layout">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+         <div class="loader"><img src="{{asset ('homepagetamplate/assets/images/loading.gif')}}" alt="#" /></div>
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -47,7 +47,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              <a href="index.html"><img src="{{asset ('homepagetamplate/assets/images/logo.png')}}" alt="#" /></a>
                            </div>
                         </div>
                      </div>
@@ -60,20 +60,12 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                 <a class="nav-link" href="index.html">Home</a>
+                                 <a class="nav-link" href="/login">Sign in</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="about.html">About</a>
+                                 <a class="nav-link" href="#">Sign up</a>
                               </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="service.html">Services</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="blog.html">Blog</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="contact.html">Contact Us</a>
-                              </li>
+                             
                               <li class="nav-item d_none">
                                  <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                               </li>
@@ -95,7 +87,7 @@
                <li data-target="#banner1" data-slide-to="1"></li>
                <li data-target="#banner1" data-slide-to="2"></li>
                <li data-target="#banner1" data-slide-to="3"></li>
-               <li data-target="#banner1" data-slide-to="4"></li>
+               
             </ol>
             <div class="carousel-inner">
                <div class="carousel-item active">
@@ -104,15 +96,15 @@
                         <div class="row d_flex">
                            <div class="col-md-6">
                               <div class="text-bg">
-                                 <h1>Strategy And <br>Research</h1>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                 <h1>PPDB<br>SMK WEDI LUWE 1</h1>
+                                 <p></p>
                                  <a href="#">About More </a>
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="text_img">
                                  <figure>
-                                    <img src="images/pct.png" alt="#"/>
+                                    <img src="{{asset ('homepagetamplate/assets/images/ppdb.jpg')}}" alt="#"/>
                                     <h3>01</h3>
                                  </figure>
                               </div>
@@ -127,16 +119,19 @@
                         <div class="row d_flex">
                            <div class="col-md-6">
                               <div class="text-bg">
-                                 <h1>Strategy And <br>Research</h1>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                 <h1>VISI DAN<br> MISI</h1>
+                                 <p>1.Menjadikan siswa siswi menjadi takut kelaparan.
+                                 2.Menjadikan siswa siswi yang menjadi beban keluarga.
+                                 3.Menjadikan siswa siswi yang telatan dan sangat koclok.
+                                 </p>
                                  <a href="#">About More </a>
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="text_img">
                                  <figure>
-                                    <img src="images/pct.png" alt="#"/>
-                                    <h3>01</h3>
+                                    <img src="{{asset ('homepagetamplate/assets/images/bolos.jpg')}}" alt="#"/>
+                                    <h3>02</h3>
                                  </figure>
                               </div>
                            </div>
@@ -150,16 +145,20 @@
                         <div class="row d_flex">
                            <div class="col-md-6">
                               <div class="text-bg">
-                                 <h1>Strategy And <br>Research</h1>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                 <h1>TATA TERTIB <br>SEKOLAH</h1>
+                                 <p>1.Harus membolos.
+                                    <br>2.Rambut harus panjang.
+                                    <br>3.Dikelas harus tidur.
+                                    <br>4.Datang harus telat.
+                                 </p>
                                  <a href="#">About More </a>
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="text_img">
                                  <figure>
-                                    <img src="images/pct.png" alt="#"/>
-                                    <h3>01</h3>
+                                    <img src="{{asset ('homepagetamplate/assets/images/peraturan.jpg')}}" alt="#"/>
+                                    <h3>03</h3>
                                  </figure>
                               </div>
                            </div>
@@ -173,16 +172,21 @@
                         <div class="row d_flex">
                            <div class="col-md-6">
                               <div class="text-bg">
-                                 <h1>Strategy And <br>Research</h1>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                 <h1>MACAM-MACAM <br>JURUSAN</h1>
+                                 <p>
+                                    <br>1.Teknik Kendaraan Ringan
+                                    <br>2.Rekayasa Perangkat Lunak
+                                    <br>3.Teknik Permesinan
+                                    <br>4.Teknik Komunikasi Jaringan
+                                 </p>
                                  <a href="#">About More </a>
                               </div>
                            </div>
                            <div class="col-md-6">
                               <div class="text_img">
                                  <figure>
-                                    <img src="images/pct.png" alt="#"/>
-                                    <h3>01</h3>
+                                    <img src="{{asset ('homepagetamplate/assets/images/siswa.jpg')}}" alt="#"/>
+                                    <h3>04</h3>
                                  </figure>
                               </div>
                            </div>
@@ -190,29 +194,7 @@
                      </div>
                   </div>
                </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="row d_flex">
-                           <div class="col-md-6">
-                              <div class="text-bg">
-                                 <h1>Strategy And <br>Research</h1>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                                 <a href="#">About More </a>
-                              </div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="text_img">
-                                 <figure>
-                                    <img src="images/pct.png" alt="#"/>
-                                    <h3>01</h3>
-                                 </figure>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+              
             </div>
             <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -229,14 +211,21 @@
             <div class="row d_flex">
                <div class="col-md-5">
                   <div class="team_img">
-                     <figure><img src="images/sco.png" alt="#"/></figure>
+                     <figure><img src="{{asset ('homepagetamplate/assets/images/lulus.jpg')}}" alt="#"/></figure>
                   </div>
                </div>
                <div class="col-md-6 offset-md-1">
                   <div class="titlepage">
-                     <h2>We Are A Dynamic Team Of Seo Agency</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod enim tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                     <h3>PROJECTS COMPLETED</h3>
+                     <h2>MACAM-MACAM EKSTRAKULIKULER DI SMK WEDI LUWE 1</h2>
+                     <p>
+                        <br>1.Memanjat pagar
+                        <br>2.Lari dari satpam
+                        <br>3.Menjadi detektif
+                        <br>4.Tidur
+                        <br>5.Herex
+                        <br>6.DLL
+                     </p>
+                     <h3>ITU SEMUA ADALAH EKSTRANYA</h3>
                      <strong>1165 <span class="yellow">+</span></strong>
                      <a class="read_more" href="#"> Read More</a>
                   </div>
@@ -258,22 +247,22 @@
                <div class="row">
                   <div class="col-md-4">
                      <div id="serv_hover"  class="services_box">
-                        <i><img src="images/service1.png" alt="#"/></i>
-                        <h3>Web Design</h3>
+                        <i><img src="{{asset ('homepagetamplate/assets/images/VISI.jpg')}}" alt="#"/></i>
+                        <h3>VISI DAN MISI</h3>
                         <a class="right_irro" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div id="serv_hover" class="services_box">
-                        <i><img src="images/service2.png" alt="#"/></i>
-                        <h3>Data Analysis</h3>
+                        <i><img src="{{asset ('homepagetamplate/assets/images/TATA TERTIB.png')}}" alt="#"/></i>
+                        <h3>TATA TERTIB SEKOLAH</h3>
                         <a class="right_irro" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div id="serv_hover" class="services_box">
-                        <i><img src="images/service3.png" alt="#"/></i>
-                        <h3>Marketing Analysis</h3>
+                        <i><img src="{{asset ('homepagetamplate/assets/images/service3.png')}}" alt="#"/></i>
+                        <h3>MACAM-MACAM JURUSAN</h3>
                         <a class="right_irro" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                      </div>
                   </div>
@@ -334,7 +323,7 @@
                   <div class="test_box margin_bottom">
                      <p>psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
                      <div class="test_icon">
-                        <i><img src="images/cos.png" alt="#"/></i>
+                        <i><img src="{{asset ('homepagetamplate/assets/images/cos.png')}}" alt="#"/></i>
                         <h4>Joans Mark <br> <span class="yellow">Call</span></h4>
                      </div>
                   </div>
@@ -343,7 +332,7 @@
                   <div class="test_box">
                      <p>psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
                      <div class="test_icon">
-                        <i><img src="images/cos.png" alt="#"/></i>
+                        <i><img src="{{asset ('homepagetamplate/assets/images/cos.png')}}" alt="#"/></i>
                         <h4>Joans Mark <br> <span class="yellow">Call</span></h4>
                      </div>
                   </div>
@@ -386,7 +375,7 @@
                </div>
                <div class="col-md-6">
                   <div class="map">
-                     <figure><img src="images/map_img.png" alt="#"/></figure>
+                     <figure><img src="{{asset ('homepagetamplate/assets/images/map_img.png')}}" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -399,7 +388,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                     <img class="logo1" src="images/logo1.png" alt="#"/>
+                     <img class="logo1" src="{{asset ('homepagetamplate/assets/images/logo1.png')}}" alt="#"/>
                      <ul class="about_us">
                         <li>dolor sit amet, consectetur<br> magna aliqua. Ut enim ad <br>minim veniam, <br> quisdotempor incididunt r</li>
                      </ul>
@@ -462,13 +451,13 @@
       </footer>
       <!-- end footer -->
       <!-- Javascript files-->
-      <script src="{{asset ('homepagetemplate/assets/js/jquery.min.js')}}"></script>
-      <script src="{{asset ('homepagetemplate/assets/js/popper.min.js')}}"></script>
-      <script src="{{asset ('homepagetemplate/assets/js/bootstrap.bundle.min.js')}}"></script>
-      <script src="{{asset ('homepagetemplate/assets/js/jquery-3.0.0.min.js')}}"></script>
+      <script src="{{asset ('homepagetamplate/assets/js/jquery.min.js')}}"></script>
+      <script src="{{asset ('homepagetamplate/assets/js/popper.min.js')}}"></script>
+      <script src="{{asset ('homepagetamplate/assets/js/bootstrap.bundle.min.js')}}"></script>
+      <script src="{{asset ('homepagetamplate/assets/js/jquery-3.0.0.min.js')}}"></script>
       <!-- sidebar -->
-      <script src="{{asset ('homepagetemplate/assets/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
-      <script src="{{asset ('homepagetemplate/assets/js/custom.js')}}"></script>
+      <script src="{{asset ('homepagetamplate/assets/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+      <script src="{{asset ('homepagetamplate/assets/js/custom.js')}}"></script>
    </body>
 </html>
 
