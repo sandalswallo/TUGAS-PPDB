@@ -33,21 +33,7 @@
 
                        
 
-                        <li class="menu-header">Setting</li>
-
-                        <li class="{{ request()->is('user*') ? 'active' : ''}}">
-                            <a href="#" class="text-white">
-                                <i class="fas fa-boxes"></i>
-                                <span>User</span>
-                            </a>
-                        </li>
-
-                        <li class="{{ request()->is('setting*') ? 'active' : ''}}">
-                            <a href="#" class="text-white">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>Setting</span>
-                            </a>
-                        </li>
+                        
 
                 </aside>
             </div>

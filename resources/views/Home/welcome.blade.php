@@ -63,7 +63,7 @@
                                  <a class="nav-link" href="/login">Sign in</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="#">Sign up</a>
+                                 <a class="nav-link" href="/register">Sign up</a>
                               </li>
                              
                               <li class="nav-item d_none">
@@ -239,22 +239,22 @@
                <div class="row">
                   <div class="col-md-10 offset-md-1">
                      <div class="titlepage">
-                        <h2>Build Your Website, Let's Check Our Services</h2>
-                        <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                        <!-- <h2>Build Your Website, Let's Check Our Services</h2>
+                        <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p> -->
                      </div>
                   </div>
                </div>
                <div class="row">
                   <div class="col-md-4">
                      <div id="serv_hover"  class="services_box">
-                        <i><img src="{{asset ('homepagetamplate/assets/images/VISI.jpg')}}" alt="#"/></i>
+                        <i><img src="{{asset ('homepagetamplate/assets/images/service1.png')}}" alt="#"/></i>
                         <h3>VISI DAN MISI</h3>
                         <a class="right_irro" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div id="serv_hover" class="services_box">
-                        <i><img src="{{asset ('homepagetamplate/assets/images/TATA TERTIB.png')}}" alt="#"/></i>
+                        <i><img src="{{asset ('homepagetamplate/assets/images/service2.png')}}" alt="#"/></i>
                         <h3>TATA TERTIB SEKOLAH</h3>
                         <a class="right_irro" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                      </div>
@@ -276,8 +276,8 @@
                <div class="row">
                   <div class="col-md-10">
                      <div class="titlepage">
-                        <h2> New Ideas & Bold Moves</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                        <h2>PRESENTASE LULUSAN SMK WEDI LUWE 1</h2>
+                        <p></p>
                      </div>
                   </div>
                </div>
@@ -285,20 +285,20 @@
                   <div class="row">
                      <div class="col-md-4">
                         <div class="ideas_box">
+                           <h3>90%</h3>
+                           <p>Lulusan yang sukses</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="ideas_box">
                            <h3>80%</h3>
-                           <p>Email Marketing</p>
+                           <p>Lulusan yang berbakat</p>
                         </div>
                      </div>
                      <div class="col-md-4">
                         <div class="ideas_box">
-                           <h3>70%</h3>
-                           <p>Online Marketing</p>
-                        </div>
-                     </div>
-                     <div class="col-md-4">
-                        <div class="ideas_box">
-                           <h3>60%</h3>
-                           <p>Enterprise Marketing</p>
+                           <h3>10%</h3>
+                           <p>Lulusan yang nganggur</p>
                         </div>
                      </div>
                   </div>
@@ -313,27 +313,34 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>Testimonial</h2>
-                     <p>labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                     <h2>PRESTASI SEKOLAH YANG PERNAH DI DAPATKAN</h2>
+                     <!-- <p>labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p> -->
                   </div>
                </div>
             </div>
             <div class="row">
                <div class="col-md-6 ">
                   <div class="test_box margin_bottom">
-                     <p>psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                     <p>
+                        <br>1.Juara Lomba Herex Sejatim
+                        <br>2.Juara Lomba Panjat Pager
+                        <br>3.Juara Tidur Yang Paling Lama
+                     </p>
                      <div class="test_icon">
                         <i><img src="{{asset ('homepagetamplate/assets/images/cos.png')}}" alt="#"/></i>
-                        <h4>Joans Mark <br> <span class="yellow">Call</span></h4>
+                        <h4>Ma' Ing <br> <span class="yellow">Call Center 08969786586
+                        </span></h4>
                      </div>
                   </div>
                </div>
                <div class="col-md-6">
                   <div class="test_box">
-                     <p>psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                     <p>Dengan masuk ke SMK WEDI LUWE 1 akan menjadikan anda sebagai murid-murid yang berbakat dan berprestasi,
+                        sehingga presentase untuk sukses akan menjadi lebih besar.
+                     </p>
                      <div class="test_icon">
                         <i><img src="{{asset ('homepagetamplate/assets/images/cos.png')}}" alt="#"/></i>
-                        <h4>Joans Mark <br> <span class="yellow">Call</span></h4>
+                        <h4>Yanto <br> <span class="yellow">Call Center 0965096956546</span></h4>
                      </div>
                   </div>
                </div>

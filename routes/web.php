@@ -5,7 +5,8 @@ use App\Http\Controllers\{
     AuthController,
     DashboardController,
     SiswaController,
-    JurusanController
+    JurusanController,
+    ProfileController
 };
 
 Route::get('/', function () {
@@ -28,8 +29,8 @@ Route::get('/siswa/data', [SiswaController::class, 'data'])->name('siswa.data');
 Route::resource('/siswa', SiswaController::class);
 
 /// Route Tempat
-// Route::get('/tempat/data', [TempatController::class, 'data'])->name('tempat.data');
-// Route::resource('/tempat', TempatController::class);
+ //Profile
+ Route::resource('/profile', ProfileController::class);
 
 // Route jurusan
 Route::get('/jurusan/data', [JurusanController::class, 'data'])->name('jurusan.data');
