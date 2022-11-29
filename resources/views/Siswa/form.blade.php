@@ -26,15 +26,17 @@
                             </div>
                         @enderror
 
-                        {{-- add jenis kelamin --}}
-                        <div class="form-group">
-                            <label for="jenis-kelamin">Jenis_kelamin</label>
-                            <select name="jenis_kelamin" id="jenis_kelamin"
-                                    class="form-control">
-                                    <option value="Perempuan">Perempuan</option>
-                                    <option value="Laki-laki">Laki-Laki</option>
-                            </select>
-                        </div>
+                        {{-- Add Jenis Kelamin --}}
+                                <div class="my-1">
+                                    <label class="mb-2" for="jenis_kelamin">Jenis Kelamin</label>
+                                    <br>
+                                    <select name="jenis_kelamin" id="jenis_kelamin" value="{{ old('jenis_kelamin')}}" class="form-control">
+                                        <option selected>Pilih...</option>
+                                        <option value="Laki-laki"> Laki-Laki</option>
+                                        <option value="Perempuan"> Perempuan</option>
+                                    </select>
+                                </div>
+                            </div>
 
                         {{--  add asal sekolah --}}
                         <label class="" for="nama">Asal Sekolah</label>

@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama');
             $table->string('kelas');
-            $table->string('jurusan');
+            $table->string('jurusan_id');
             $table->string('asal_sekolah');
             $table->enum('jenis_kelamin',['laki-laki','perempuan']);
             $table->timestamps();

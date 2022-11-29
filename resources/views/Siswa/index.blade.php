@@ -129,6 +129,7 @@
     function addForm(url) {
         $('#modalForm').modal('show');
         $('#modalForm .modal-title').text('Tambah Data siswa');
+
         $('#modalForm form')[0].reset();
         $('#modalForm form').attr('action', url);
         $('#modalForm [name=_method]').val('post');
@@ -136,16 +137,18 @@
     function editData(url) {
         $('#modalForm').modal('show');
         $('#modalForm .modal-title').text('Edit Data siswa');
+
         $('#modalForm form')[0].reset();
         $('#modalForm form').attr('action', url);
         $('#modalForm [name=_method]').val('put');
+        
         $.get(url)
             .done((response) => {
                 $('#modalForm [name=nama]').val(response.nama);
+                $('#modalForm [name=jenis_kelamin]').val(response.jenis_kelamin);
                 $('#modalForm [name=kelas]').val(response.kelas);
                 $('#modalForm [name=jurusan_id').val(response.jurusan_id);
                 $('#modalForm [name=asal_sekolah]').val(response.asal_sekolah);
-                $('#modalForm [name=jenis_kelamin]').val(response.jenis_kelamin);
                 
             })
             .fail((errors) => {

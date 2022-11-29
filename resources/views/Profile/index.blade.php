@@ -17,9 +17,9 @@
                 <div class="col-lg-4">
                     <div class="">
                         <div class="card-body text-center">
-                            <img src=""
+                            <img src="{{asset ('homepagetamplate/assets/images/makima.png')}}"
                                 alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
-                            <h5 class="my-3">UCUP</h5>
+                            <h5 class="my-3">MAKIMA</h5>
                             <p class="text-muted mb-1">ADMINISTRATOR</p>
                             <p class="text-muted">DARJO</p>
 
@@ -39,7 +39,7 @@
                                     <p class="mb-0">Nama</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">UCUP</p>
+                                    <p class="text-muted mb-0">MAKIMA</p>
                                 </div>
                             </div>
 
@@ -61,7 +61,7 @@
                                     <p class="mb-0">Jenis Kelamin</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">Laki-laki</p>
+                                    <p class="text-muted mb-0">PEREMPUAN</p>
                                 </div>
                             </div>
 
