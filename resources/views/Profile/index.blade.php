@@ -7,7 +7,7 @@
 @section('content')
 <section class="section">
     <div class="section-header">
-        <h1>Profile | {{ Auth()->user()->name }}</h1>
+        <h1>Profile | {{ !empty(Auth()->user()->name) ? Auth()->user()->name : '-' }}</h1>
     </div>
 
     <div class="section-body">

@@ -60,10 +60,10 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                 <a class="nav-link" href="/login">Sign in</a>
+                                 <a class="nav-link" href="/login">Masuk</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="/register">Sign up</a>
+                                 <a class="nav-link" href="/register">Daftar</a>
                               </li>
                              
                               <li class="nav-item d_none">

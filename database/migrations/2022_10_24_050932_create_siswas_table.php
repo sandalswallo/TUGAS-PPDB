@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('siswa', function (Blueprint $table) {
             $table->id();
+            $table->integer('role_id')->default('2');
             $table->string('nama');
             $table->string('kelas');
             $table->string('jurusan_id');

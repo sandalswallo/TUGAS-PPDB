@@ -17,7 +17,7 @@
                             <div class="d-sm-none d-lg-inline-block">{{!empty(auth()->user()->name) ? auth()->user()->name : ''}}</div></a>
                         
                         <div class="dropdown-menu dropdown-menu-right">
-                            <div class="dropdown-title">Logged in 5 min ago</div>
+                            <div class="dropdown-title">Login in 5 min ago</div>
                             <a href="/profile" class="dropdown-item has-icon">
                                 <i class="far fa-user"></i> Profile
                             </a>

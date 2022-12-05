@@ -30,7 +30,7 @@
 
                         <div class="card card-primary">
                             <div class="card-header">
-                                <h4>Login</h4>
+                                <h4>Masuk</h4>
                             </div>
 
                             <div class="card-body">
@@ -72,7 +72,7 @@
                                     <!-- Untuk Login -->
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-primary btn-lg btn-block" tabindex="4">
-                                            Login
+                                            Masuk
                                         </button>
                                     </div>
                                 </form>
@@ -95,10 +95,10 @@
                         </div>
                         <!-- Register -->
                         <div class="mt-5 text-muted text-center">
-                            Don't have an account? <a href="{{route('register')}}">Create One</a>
+                            Apakah anda sudah memiliki akun? <a href="{{route('register')}}">Buat Akun</a>
                         </div>
                         <div class="simple-footer">
-                            Copyright &copy; Anandito 2022
+                            Copyright &copy; ma'ing
                         </div>
                     </div>
                 </div>

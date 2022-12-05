@@ -6,7 +6,8 @@ use App\Http\Controllers\{
     DashboardController,
     SiswaController,
     JurusanController,
-    ProfileController
+    ProfileController,
+    UserController,
 };
 
 Route::get('/', function () {
@@ -31,6 +32,9 @@ Route::resource('/siswa', SiswaController::class);
 /// Route Tempat
  //Profile
  Route::resource('/profile', ProfileController::class);
+
+ //user
+ Route::resource('/user', UserController::class);
 
 // Route jurusan
 Route::get('/jurusan/data', [JurusanController::class, 'data'])->name('jurusan.data');
