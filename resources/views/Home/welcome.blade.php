@@ -449,7 +449,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-10 offset-md-1">
-                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a></p>
+                        <p>© 2019 All Rights Reserved. Design by <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcoolthemestores.com%2Fzero-two-wallpaper-hd-new-tab%2F&psig=AOvVaw0QstH0qb8pINqzymEdcCG5&ust=1670378675983000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLi2m9jz4_sCFQAAAAAdAAAAABAR"> Ma'Ing</a></p>
                      </div>
                   </div>
                </div>

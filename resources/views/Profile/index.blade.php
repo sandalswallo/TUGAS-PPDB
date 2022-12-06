@@ -17,9 +17,9 @@
                 <div class="col-lg-4">
                     <div class="">
                         <div class="card-body text-center">
-                            <img src="{{asset ('homepagetamplate/assets/images/makima.png')}}"
+                            <img src="{{asset ('homepagetamplate/assets/images/zero.jpg')}}"
                                 alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
-                            <h5 class="my-3">MAKIMA</h5>
+                            <h5 class="my-3">Taji</h5>
                             <p class="text-muted mb-1">ADMINISTRATOR</p>
                             <p class="text-muted">DARJO</p>
 
@@ -39,7 +39,7 @@
                                     <p class="mb-0">Nama</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">MAKIMA</p>
+                                    <p class="text-muted mb-0">Taji</p>
                                 </div>
                             </div>
 
@@ -50,7 +50,7 @@
                                     <p class="mb-0">Jurusan</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">RPL</p>
+                                    <p class="text-muted mb-0">TKJ</p>
                                 </div>
                             </div>
 
@@ -65,12 +65,7 @@
                                 </div>
                             </div>
 
-                            <hr>
-
-                            
-
-                           
-                            <hr>
+                           <hr>
 
                             <div class="row">
                                 <div class="col-sm-3">

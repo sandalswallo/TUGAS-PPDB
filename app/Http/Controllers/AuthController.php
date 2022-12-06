@@ -6,6 +6,8 @@ use App\Models\User;
 use App\Models\Siswa;
 use App\Models\Jurusan;
 use Auth;
+use Validator;
+use Str;
 
 class AuthController extends Controller
 {
@@ -50,17 +52,10 @@ class AuthController extends Controller
         User::create([
             'role_id' => 2,
             'name' => $request->nama,
-            'jurusan_id' => $request->jurusan_id,
-            'jenis_kelamin' => $request->jenis_kelamin,
-            'agama' => $request->agama,
-            'email' => $request->email,
-            'telepon' => $request->telepon,
-            'nisn' => $request->nisn,
-            'tempat_lahir' => $request->tempat_lahir,
-            'tanggal_lahir' => $request->tanggal_lahir,
-            'alamat' => $request->alamat,
-            'asal_sekolah' => $request->asal_sekolah,
             'password' => bcrypt($request->password),
+            'email' => $request->email,
+            'remember_token' => Str::random(20),
+            'status' => 'inactive',
         ]);
 
         return view('auth.login');
